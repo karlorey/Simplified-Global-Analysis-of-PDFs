@@ -1,0 +1,31 @@
+#: table_doi: 10.17182/hepdata.54873.v1/t1
+#: name: Table 1
+#: description: Data from the 2000 running period at Q**2 There is an additional 1.2 PCT overall normalisation uncertainty not included.
+
+#: data_file: Table1.yaml
+#: keyword reactions: E+ P --> E+ X
+#: keyword observables: SIG | F2
+#: keyword phrases: Inclusive | Integrated Cross Section | Cross Section | Structure Function | Electron production | Neutral Current | Deep Inelastic Scattering
+#: keyword cmenergies: 319.0
+#: E(P=1) [GeV],27.6
+#: E(P=2) [GeV],920.0
+#: Q**2 [GeV^2],12.0
+#: RE,E+ P --> E+ X
+#: SQRT(S) [GeV],319.0
+X,Y,R(=SIG(L)/SIG(T)),SIG(C=REDUCED),stat +,stat -,sys_1 +,sys_1 -,sys_2 +,sys_2 -
+0.0002,0.591,0.202,1.324,0.016,-0.016,0.009,-0.009,0.032,-0.032
+0.00032,0.369,0.205,1.247,0.011,-0.011,0.008,-0.008,0.009,-0.009
+0.0005,0.236,0.209,1.175,0.01,-0.01,0.008,-0.008,0.01,-0.01
+0.0008,0.148,0.213,1.077,0.01,-0.01,0.007,-0.007,0.012,-0.012
+
+#: E(P=1) [GeV],27.6
+#: E(P=2) [GeV],920.0
+#: Q**2 [GeV^2],12.0
+#: RE,E+ P --> E+ X
+#: SQRT(S) [GeV],319.0
+X,Y,R(=SIG(L)/SIG(T)), F2,stat +,stat -,sys_1 +,sys_1 -,sys_2 +,sys_2 -
+0.0002,0.591,0.202,1.394,0.017,-0.017,0.01,-0.01,0.034,-0.034
+0.00032,0.369,0.205,1.268,0.011,-0.011,0.009,-0.009,0.009,-0.009
+0.0005,0.236,0.209,1.182,0.011,-0.011,0.008,-0.008,0.01,-0.01
+0.0008,0.148,0.213,1.079,0.01,-0.01,0.007,-0.007,0.012,-0.012
+

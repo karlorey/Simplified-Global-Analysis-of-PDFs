@@ -1,0 +1,27 @@
+#: table_doi: 10.17182/hepdata.44843.v1/t8
+#: name: Table 8
+#: description: Data from shifted vertex analysis. Overall normalization error of 3% is notincluded.
+
+#: data_file: Table8.yaml
+#: keyword reactions: E+ P --> E+ X
+#: keyword observables: F2
+#: keyword phrases: Inclusive | Structure Function | Electron production | Neutral Current | Deep Inelastic Scattering
+#: keyword cmenergies: 300.0
+#: P(P=1) [GeV],,,27.5
+#: P(P=2) [GeV],,,820.0
+#: Q**2 [GEV**2],,,14.0 TO 20.0(MEAN=15.0)
+#: RE,,,E+ P --> E+ X
+#: SQRT(S) [GeV],,,300.0
+X,X LOW,X HIGH,SIG(NAME=L)/SIG(NAME=T)
+0.0008,0.0006,0.0015,0.46
+0.0026,0.0015,0.012,0.38
+
+#: P(P=1) [GeV],,,27.5
+#: P(P=2) [GeV],,,820.0
+#: Q**2 [GEV**2],,,14.0 TO 20.0(MEAN=15.0)
+#: RE,,,E+ P --> E+ X
+#: SQRT(S) [GeV],,,300.0
+X,X LOW,X HIGH,F2,stat +,stat -,sys +,sys -
+0.0008,0.0006,0.0015,1.33,0.16,-0.16,0.06,-0.1
+0.0026,0.0015,0.012,0.91,0.07,-0.07,0.11,-0.04
+
